@@ -1,13 +1,97 @@
 $color-primary: #535353;
 $color-secondary: #678da3;
 $color-pale: #bdc9d8;
-$color-mid: #7c7c7c;
+$color-mid: #01507e;
 $color-dark: #202020;
 
 body{
     font-family: 'Inconsolata';
+    background-image: linear-gradient(90deg, rgba(108,122,156,1) 9%, rgba(72,85,117,1) 36%, rgba(28,55,74,1) 63%, rgba(2,24,42,1) 100%);
+    color:$color-pale;
+}
+
+body header{
+    color: $color-dark;
+}
+
+.navcol{
+    color: $color-dark;
+    font-weight: 600;
+    font-family: 'Inconsolata';
+    font-size: 20;
+}
+
+.btn-primary{
+    color: $color-dark;
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+}
+
+.btn-primary:hover{
+    color: $color-pale;
+    background-color: $color-mid;
+    border-color: $color-mid;
+}
+
+.open-sans{
+    font-family: "PT Sans", sans-serif;
+}
+
+hr{
+    opacity: 1;
+    border: 2px solid $color-dark;
+    border-radius: 10px;
+
 }
 
 header{
     background-image: linear-gradient(90deg, rgba(255,255,255,1) 9%, rgba(83,132,171,1) 63%, rgba(5,79,138,1) 100%);
+}
+
+footer{
+    background-image: linear-gradient(90deg, $color-pale, $color-secondary);
+    padding: 20px 0;
+    color: $color-dark;
+}
+
+footer a:link{
+    color: $color-mid;
+}
+
+footer a:visited{
+    color: $color-mid;
+}
+
+footer a:hover{
+    color: $color-primary;
+}
+
+.c-item{
+    height: 600px;
+}
+
+.c-img{
+
+    height: 100%;
+    object-fit: contain;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.carousel-caption{
+    background-color: #bdc9d8;
+}
+
+.top-buffer{
+    margin-top: 100px;
+}
+
+.small-top-buffer{
+    margin-top: 40px;
+}
+
+.bottom-buffer{
+    margin-bottom: 100px;
 }

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Main Page.scss" />
+
+    <title>Typing and Keyboards</title>
+    <link rel="icon" type="image/x-icon" href="imgs/keyboard_website_icon.png">
+
+</head>
+
+<body>
+  <!--Website Header-->
+  <header>
+    <div class="container-fluid">
+      <div class="row justify-content-start">
+        <div class="col-12">
+          <img src="imgs/keyboard_icon.png" alt="Logo" width="150" class="d-inline-block">
+          <section class="d-inline-block">
+            <h3 class="d-inline-block align-top">
+              Keyboards and Typing
+            </h3>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active navcol" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navcol" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Keyboards
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item navcol" href="Keyboards.html#history">History</a></li>
+              <li><a class="dropdown-item navcol" href="Keyboards.html#modern">Modern Design</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navcol" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Typing
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item navcol" href="Typing.html#typinghistory">History</a></li>
+              <li><a class="dropdown-item navcol" href="Typing.html#touchtyping">Touch Typing</a></li>
+              <li><a class="dropdown-item navcol" href="Typing.html#layouts">Layouts</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Info-->
+  <main class="container-fluid">
+    <section class="row">
+      <section class="col-12">
+        <h2 class="open-sans">Website Use</h2>
+      </section>
+      <section class="col-sm-10">
+        <hr>
+      </section>
+      <section class="col-sm-6">
+        <img src="imgs/qwerty.png" width="930px" alt="IBM Keyboard" class="w-100 d-block"/>
+      </section>
+      <section class="col-sm-4">
+        <h4 class="open-sans w-100 d-block">This website's function is to inform users who are curious about information on keyboards and typing as a whole. This includes history, inner mechanics, and progression.</h4>
+      </section>
+    </section>
+
+
+    <!--Carousel-->
+    <div class="container top-buffer">
+      <div id="mainPageCarousel" class="carousel carousel-dark slide" data-bs-slide="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mainPageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#mainPageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#mainPageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="imgs/hansen writing ball.jpg" class="d-block w-100 c-img" alt="Hansen gold writing ball">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hansen Writing Ball</h5>
+              <p>The Hansen Writing Ball was one of the first typewriter-like devices invented. It was the first commercially sold writing device.</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="imgs/sholes and glidden.jpg" class="d-block w-100 c-img" alt="Sholes and Glidden typewriter using a manual pedal">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sholes and Glidden Typewriter</h5>
+              <p>This was the first typewriter that used the QWERTY keyboard layout and was commercially sold. It could only print upper-case letters.</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="imgs/IBM_Model_M_grande.png" class="d-block w-100 c-img" alt="Model M keyboard">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Model M Keyboard</h5>
+              <p>These are a group of keyboards made by IBM starting in 1985, and later by various other companies. They used a buckling-spring mechanism to operate.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainPageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainPageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <h5>Citations</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Open Citations
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Citations</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <ul class="list-unstyled">
+                          <li><a href="https://www.daskeyboard.com/blog/typing-through-time-the-history-of-the-keyboard/">Typing History</a></li>
+                          <li><a href="https://www.historyofinformation.com/detail.php?id=5383">Hansen Writing Ball</a></li>
+                          <li><a href="https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter">Sholes and Glidden Typewriter</a></li>
+                          <li><a href="https://en.wikipedia.org/wiki/Model_M_keyboard">Model M Keyboard</a></li>
+                          <li><a href="https://www.historyofinformation.com/detail.php?id=5383">Hansen Writing Ball</a></li>
+                          <li><a href="https://en.wikipedia.org/wiki/Touch_typing">Touch Typing</a></li>
+                          <li><a href="https://www.britannica.com/technology/typewriter">Electric Typewriter</a></li>
+                          <li><a href="https://www.smithsonianmag.com/arts-culture/fact-of-fiction-the-legend-of-the-qwerty-keyboard-49863249/">QWERTY History</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6">
+                        <ul class="list-unstyled">
+                          <li><a href="https://www.antikeychop.com/edison-typewriter">Electric Typewriter 2</a></li>
+                          <li><a href="https://americanhistory.si.edu/collections/nmah_1416632#:~:text=In%201935%20IBM%20pr
+                            oduced%20its,the%2020th%20century%20until%201990.">New Electric Typewriter</a></li>
+                          <li><a href="https://www.thoughtco.com/history-of-the-computer-keyboard-1991402">Keyboard History</a></li>
+                          <li><a href="https://www.niceone-tech.com/when-were-membrane-keyboards-invented-a-brief-history.html
+                            #:~:text=1965%3A%20The%20first%20membrane%20keyboard,in%20industrial%20and%20scientific%20settings.">Membrane</a></li>
+                          <li><a href="https://spacecoastdaily.com/2023/05/the-evolution-of-mechanical-keyboards-a-brief-history/">Mechanical Keyboard</a></li>
+                          <li><a href="https://www.keyboard.university/100-courses/switches-101-xnyng#:~:text=The%20modern%20sw
+                            itches%20used%20today,on%20the%20original%20Cherry%20design.">Switches</a></li>
+                          <li><a href="https://www.academyoflearning.com/blog/the-fastest-typists-in-the-world-past-and-present/">Speed Typists</a></li>
+                          <li><a href="https://medium.com/@typezap/qwerty-vs-dvorak-vs-colemak-a-detailed-comparison-65de0b91b1bd#:~:text=
+                            History%20%26%20Design%3A%20Developed%20in%202006,curve%20less%20steep%20than%20Dvorak.">Keyboard Layouts</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="col-3 offset-1">
+          <h5>Author Social's</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/Riempire">GitHub</a></li>
+            <li>Email: skcharme@gmail.com</li>
+          </ul>
+        </div>
+        <div class="col-3 offset-1">
+          <h5>Typing Websites</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://monkeytype.com/">MonkeyType</a></li>
+            <li><a href="https://10fastfingers.com/typing-test/english">10FastFingers</a></li>
+            <li><a href="https://play.typeracer.com/">TypeRacer</a></li>
+            <li><a href="https://www.nitrotype.com/">Nitro Type</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
